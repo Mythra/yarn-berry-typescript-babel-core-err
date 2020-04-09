@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Yarn Berry breaking on Typescript Babel Types.",
   "scripts": {
-    "build": "yarn run tsc -p ."
+    "build": "yarn run tsc --lib es2015 index.ts"
   },
   "author": "Cynthia <cynthia@coan.dev>",
   "license": "MIT",

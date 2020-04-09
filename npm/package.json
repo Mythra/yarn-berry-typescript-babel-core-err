@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NPM working on Typescript Babel Types.",
   "scripts": {
-    "build": "./node_modules/.bin/tsc -p ."
+    "build": "./node_modules/.bin/tsc --lib es2015 index.ts"
   },
   "author": "Cynthia <cynthia@coan.dev>",
   "license": "MIT",
