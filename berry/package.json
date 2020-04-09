@@ -1,0 +1,18 @@
+{
+  "name": "typescript-babel-types",
+  "version": "1.0.0",
+  "description": "Yarn Berry breaking on Typescript Babel Types.",
+  "scripts": {
+    "build": "yarn run tsc -p ."
+  },
+  "author": "Cynthia <cynthia@coan.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel-types": "^7.0.7",
+    "@types/babel__core": "^7.1.7",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0"
+  }
+}
